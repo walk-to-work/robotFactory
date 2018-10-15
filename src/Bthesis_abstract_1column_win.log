@@ -1,0 +1,129 @@
+This is e-pTeX, Version 3.14159265-p3.7.2-170924-2.6 (utf8.sjis) (TeX Live 2017/W32TeX) (preloaded format=platex 2018.1.5)  19 JAN 2018 13:43
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./Bthesis_abstract_1column_win.tex
+(./Bthesis_abstract_1column_win.tex
+pLaTeX2e <2017/10/28>+3 (based on LaTeX2e <2017-04-15>)
+Babel <3.16> and hyphenation patterns for 84 language(s) loaded.
+(c:/w32tex/share/texmf-dist/tex/platex/base/jarticle.cls
+Document Class: jarticle 2017/09/19 v1.7g Standard pLaTeX class
+\c@@paper=\count82
+(c:/w32tex/share/texmf-dist/tex/platex/base/jsize11.clo
+File: jsize11.clo 2017/09/19 v1.7g Standard pLaTeX file (size option)
+)
+\c@part=\count83
+\c@section=\count84
+\c@subsection=\count85
+\c@subsubsection=\count86
+\c@paragraph=\count87
+\c@subparagraph=\count88
+\c@figure=\count89
+\c@table=\count90
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\symmincho=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
+(Font)                  JY1/mc/m/n --> JY1/gt/m/n on input line 613.
+\toclineskip=\dimen118
+\@lnumwidth=\dimen119
+\bibindent=\dimen120
+\heisei=\count91
+)
+(c:/w32tex/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(c:/w32tex/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(c:/w32tex/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(c:/w32tex/share/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(c:/w32tex/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: dvipdfmx.def on input line 99.
+
+(c:/w32tex/share/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
+File: dvipdfmx.def 2017/06/24 v5.0g Graphics/color driver for dvipdfmx
+))
+\Gin@req@height=\dimen121
+\Gin@req@width=\dimen122
+)
+
+! LaTeX Error: File `watermark.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: fa
+
+! LaTeX Error: File `fa.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: fda
+
+! LaTeX Error: File `fda.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: rtgr
+
+! LaTeX Error: File `rtgr.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: r
+
+! LaTeX Error: File `r.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: f
+
+! LaTeX Error: File `f.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: g
+
+! LaTeX Error: File `g.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: f
+
+! LaTeX Error: File `f.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+! Emergency stop.
+<read *> 
+         
+l.11 \usepackage
+                {mediabb}%  <----------   pdf input^^M
+End of file on the terminal!
+
+ 
+Here is how much of TeX's memory you used:
+ 636 strings out of 493624
+ 7681 string characters out of 6150123
+ 65188 words of memory out of 5000000
+ 4299 multiletter control sequences out of 15000+600000
+ 8274 words of font info for 34 fonts, out of 8000000 for 9000
+ 929 hyphenation exceptions out of 8191
+ 25i,0n,21p,255b,36s stack positions out of 5000i,500n,10000p,500000b,80000s
+No pages of output.

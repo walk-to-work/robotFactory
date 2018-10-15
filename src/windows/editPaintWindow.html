@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script type = "text/javascript">
+    
+    function endFunction(){
+      let color_num = document.f1.t.selectedIndex;
+      let color_value = document.f1.t.options[color_num].value;
+      window.localStorage.setItem('color',color_value);
+      window.localStorage.setItem('check',1);
+      window.open('about:blank','_self').close();
+    }
+
+
+  </script>
+</head>
+<body>
+    
+    <form name="f1">
+      流れてきたらパーツを
+      <select name="t">
+        <option value="0">青</option>  
+        <option value="1">赤</option>
+        <option value="2">黄</option>
+      </select>
+      色に塗る
+    <form>
+    
+    <br>
+    <br>
+    <input type="button" value="へんしゅうをおわる" onclick="endFunction()">
+</body>
+</html>
