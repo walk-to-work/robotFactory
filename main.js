@@ -11,23 +11,23 @@ function init(){
     var mx = stageBackground.mouseX;    //マウスのx座標のグローバル変数
     var my = stageBackground.mouseY;    //マウスのy座標のグローバル変数
 
-    var fieldWidth = stageWidth*0.5;    //ステージの横幅
-    var fieldHeight = stageHeight*0.85;  //ステージの縦幅
-    console.log("fieldWidth:"+fieldWidth+" fieldHeight:"+fieldHeight);
-    
-    /* ここから画像読み込み処理 */
-    var Asset = {};
-    Asset.assets = [
-        /*  json形式読み込んでいる
-            {type: "image" , name: "このソフト内での表記" , src: "ファイルのパス"}
-        */
-        {type: "image" , name: "tile" , src: "images/stageTile.png"},               //タイル
-        {type: "image" , name: "tileOver" , src: "images/stageTileOver.png"},       //タイル色反転
-        {type: "image" , name: "assemblyArea" , src: "images/itemArea.png"},        //枠
-        
-        {type: "image" , name: "beltUp" , src: "images/stageBeltUp.png"},          //ベルト・上
-        {type: "image" , name: "beltRight" , src: "images/stageBeltRight.png"},    //ベルト・右
-        {type: "image" , name: "beltBottom" , src: "images/stageBeltBottom.png"},  //ベルト・下
+	var fieldWidth = stageWidth*0.5;    //ステージの横幅
+	var fieldHeight = stageHeight*0.85;  //ステージの縦幅
+	console.log("fieldWidth:"+fieldWidth+" fieldHeight:"+fieldHeight);
+
+	/* ここから画像読み込み処理 */
+	var Asset = {};
+	Asset.assets = [
+		/*  json形式読み込んでいる
+						{type: "image" , name: "このソフト内での表記" , src: "ファイルのパス"}
+						*/
+		{type: "image" , name: "tile" , src: "images/stageTile.png"},               //タイル
+		{type: "image" , name: "tileOver" , src: "images/stageTileOver.png"},       //タイル色反転
+		{type: "image" , name: "assemblyArea" , src: "images/itemArea.png"},        //枠
+
+		{type: "image" , name: "beltUp" , src: "images/stageBeltUp.png"},          //ベルト・上
+		{type: "image" , name: "beltRight" , src: "images/stageBeltRight.png"},    //ベルト・右
+		{type: "image" , name: "beltBottom" , src: "images/stageBeltBottom.png"},  //ベルト・下
         {type: "image" , name: "beltLeft" , src: "images/stageBeltLeft.png"},      //ベルト・左
         {type: "image" , name: "beltUp2" , src: "images/stageBeltUp2.png"},          //ベルト・上
         {type: "image" , name: "beltRight2" , src: "images/stageBeltRight2.png"},    //ベルト・右
