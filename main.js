@@ -27,11 +27,11 @@ function init(){
         
         {type: "image" , name: "beltUp" , src: "images/stageBeltUp.png"},          //ベルト・上
         {type: "image" , name: "beltRight" , src: "images/stageBeltRight.png"},    //ベルト・右
-        {type: "image" , name: "beltBottom" , src: "images/stagebeltBottom.png"},  //ベルト・下
+        {type: "image" , name: "beltBottom" , src: "images/stageBeltBottom.png"},  //ベルト・下
         {type: "image" , name: "beltLeft" , src: "images/stageBeltLeft.png"},      //ベルト・左
         {type: "image" , name: "beltUp2" , src: "images/stageBeltUp2.png"},          //ベルト・上
         {type: "image" , name: "beltRight2" , src: "images/stageBeltRight2.png"},    //ベルト・右
-        {type: "image" , name: "beltBottom2" , src: "images/stagebeltBottom2.png"},  //ベルト・下
+        {type: "image" , name: "beltBottom2" , src: "images/stageBeltBottom2.png"},  //ベルト・下
         {type: "image" , name: "beltLeft2" , src: "images/stageBeltLeft2.png"},      //ベルト・左
         
 
