@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script type = "text/javascript">
+    
+    function endFunction(){
+      let num_value = document.f1.num.value;
+      window.localStorage.setItem('num',num_value);
+
+      let tR_num = document.f1.tR.selectedIndex;
+      let tR_value = document.f1.tR.options[tR_num].value;
+      window.localStorage.setItem('trueRoot',tR_value);
+
+      let fR_num = document.f1.fR.selectedIndex;
+      let fR_value = document.f1.fR.options[fR_num].value;
+      window.localStorage.setItem('falseRoot',fR_value);
+      console.log("num:"+num_value+" trueRoot"+tR_value+" falseRoot"+fR_value);
+      alert("edit t:"+window.localStorage.getItem("trueRoot")+" f:"+window.localStorage.getItem("falseRoot"));
+      if(fR_value == tR_value){
+        alert("同じ出口は選べないよ");        
+      }
+      else{
+        window.localStorage.setItem('check',1);
+        window.open('about:blank','_self').close();
+      }
+      
+    }
+
+
+  </script>
+</head>
+<body>
+    
+    <form name="f1">
+      パーツが
+      <input type="text" size="3" name="num" value="" style="width:30px">
+      回通ったら
+      <select name="tR">
+          <option value="0">上</option>  
+          <option value="2">下</option>
+          <option value="3">左</option>
+          <option value="1">右</option>
+      </select>
+      にながして，
+      <br>
+      それまでは
+      <select name="fR">
+          <option value="0">上</option>  
+          <option value="2">下</option>
+          <option value="3">左</option>
+          <option value="1">右</option>
+      </select>
+    <form>
+    にながす
+    <br>
+    <br>
+    <input type="button" value="へんしゅうをおわる" onclick="endFunction()">
+</body>
+</html>
